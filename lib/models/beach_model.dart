@@ -2,12 +2,14 @@ class BeachModel {
   int id;
   String nome;
   String local;
-  String descrico;
+  String descricao;
+  double avaliacao;
 
   BeachModel({
     this.id,
     this.nome,
     this.local,
-    this.descrico,
+    this.descricao,
+    this.avaliacao,
   });
 }

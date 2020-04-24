@@ -13,7 +13,7 @@ class _BeachesScreenState extends State<BeachesScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromRGBO(235, 197, 121, .9),
+        backgroundColor: Colors.orange,
         title: Text("Praias"),
       ),
       body: FutureBuilder<List<BeachModel>>(
@@ -53,7 +53,7 @@ class _BeachesScreenState extends State<BeachesScreen> {
       ),
       child: Container(
         decoration: BoxDecoration(
-          color: Colors.blue,
+          color: Colors.grey,
         ),
         child: ListTile(
           contentPadding: EdgeInsets.symmetric(
@@ -75,18 +75,16 @@ class _BeachesScreenState extends State<BeachesScreen> {
             ),
           ),
           trailing: Icon(
-            Icons.keyboard_arrow_right,
-            color: Colors.white,
+            Icons.beach_access,
+            color: Colors.orange,
             size: 30.0,
           ),
           onTap: () {
-
             Navigator.pushNamed(
               context,
               "/beach_detail",
               arguments: beach,
             );
-
           },
         ),
       ),

@@ -18,7 +18,8 @@ class BeachRepository {
           id: 1,
           nome: 'Long Beach',
           local: 'São Paulo',
-          descrico: 'Uma das praias mais conhecidas de São Paulo, recebe diversos turistas no verão.',
+          descricao: 'Uma das praias mais conhecidas de São Paulo, recebe diversos turistas no verão.',
+          avaliacao: 3.5,
         ),
       );
       beaches.add(
@@ -26,7 +27,8 @@ class BeachRepository {
           id: 2,
           nome: 'Jurerê Internacional',
           local: 'Santa Catarina',
-          descrico: 'Uma das praias mais badalas de florianopolis, com muita vida noturna para você que gosta de festa.',
+          descricao: 'Uma das praias mais badalas de florianópolis, com muita vida noturna agitada para você que gosta de festa.',
+          avaliacao: 5,
         ),
       );
       beaches.add(
@@ -34,7 +36,8 @@ class BeachRepository {
           id: 3,
           nome: 'Itamambuca',
           local: 'São Paulo',
-          descrico: 'Uma boa praia para pegar uma onda e aproveitar com os amigos.',
+          descricao: 'Uma boa praia para pegar uma onda e aproveitar com os amigos.',
+          avaliacao: 4,
         ),
       );
       beaches.add(
@@ -42,7 +45,8 @@ class BeachRepository {
           id: 4,
           nome: 'Praia do rosa',
           local: 'Santa Catarina',
-          descrico: 'Uma praia linda para curtir com toda a familia',
+          descricao: 'Uma praia linda para curtir com toda a família.',
+          avaliacao: 4.5,
         ),
       );
       beaches.add(
@@ -50,7 +54,8 @@ class BeachRepository {
           id: 5,
           nome: 'Arraial do Cabo',
           local: 'Rio de janeiro',
-          descrico: 'Também conhecida como o caribe brasileiro, arraial do cabo é uma das praias mais bonitas do Brasil.',
+          descricao: 'Também conhecida como o caribe brasileiro, arraial do cabo é uma das praias mais bonitas do Brasil.',
+          avaliacao: 5,
         ),
       );
 
@@ -58,5 +63,4 @@ class BeachRepository {
 
     return new Future.value(beaches);
   }
-
 }
