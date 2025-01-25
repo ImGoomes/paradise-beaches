@@ -1,6 +1,6 @@
 # paradise_beaches
 
-A new Flutter project.
+University flutter project.
 
 ## Getting Started
 
